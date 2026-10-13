@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "crystalclient",
+  "version": "${version}",
+  "name": "CrystalClient",
+  "description": "Client-side Crystal PvP / Anchor PvP toolkit with a priority-managed module system.",
+  "environment": "client",
+  "entrypoints": { "client": ["dev.crystalclient.CrystalClient"] },
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
